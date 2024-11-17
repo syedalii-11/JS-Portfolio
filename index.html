@@ -1,0 +1,105 @@
+<html>
+ <head>
+<title>
+    Portfolio Website
+</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="index.js"></script>
+ </head>
+ <body>
+<nav class="navbar">
+    <div class="logo">
+    Syed Ali
+    </div>
+    <div>
+<ul class="navbar-list">
+    <li><a href="#overview" class="nav-link">Overview</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#contact" class="nav-link">Contact Me</a></li>
+    
+</ul>
+    </div>
+    <div>
+<button class="contact-me">
+    Contact Me
+</button>
+    </div>
+</nav>
+<section class="primary-section" id="overview">
+    <div class="primary-section-inner-div">
+        <div>
+            <p><span class="hi-class">Hi,</span> <br> <h1 class="main-intro">I'm <span class="orange-text">Syed Ali</span> <br>an IT Analyst</h1></p>
+            <p>Technology-inclined professional possesses strong troubleshooting capabilities
+                and customer-oriented attitude. Experienced in providing network and
+                software support to users and developing and implementing technical
+                solutions. Adept at analyzing system performance and security to drive optimal
+                user experience
+             </p>
+             <div>
+                <a href="#contact"class="hire-me-button">Hire Me</a>
+                <button class="experience-button">Experience</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="images/resumepic.jpeg" alt="" class="portfolio-img">
+        </div>
+    </div>
+   
+    
+       
+   
+ 
+    
+
+</section>
+<section class="secondary-section" id="about">
+
+    <div class="image-container">
+        <img src="images/resumepic.jpeg" alt="" class="portfolio-img">
+    </div>
+    <div class="about-me">
+       <h2> About <span class="orange-text"> Me</span></h2>
+       <h1  class="about-me-h1"> IT <span class="orange-text">Analyst</span></h1>
+       <p>
+        I am an experienced IT professional with a strong background in technical support, systems administration, and end-user assistance. Currently working as an IT Service Desk Analyst at Deciem Inc., I have a proven track record of resolving complex technical issues across a range of systems and applications, ensuring seamless operations for users across multiple time zones.
+
+        With over 5 years of hands-on experience, I excel in utilizing ticketing systems like JIRA to manage support requests, collaborating with engineering teams on malware and bug fixes, and ensuring devices are securely configured and deployed according to company policies. My expertise includes supporting Office 365 applications (Exchange Online, SharePoint Online, OneDrive for Business, and Teams), troubleshooting network issues, and providing clear, user-friendly explanations of technical concepts to non-technical individuals.
+        
+        I am passionate about delivering high-quality service, maintaining optimal system performance, and continuously improving technical processes to enhance user experience and productivity.
+        
+</p>        
+       <button class="contact-me">
+        Contact Me
+    </button>
+    </div>
+  </section>
+
+
+  <section id="contact" class="contact">
+
+    <div class="contact-me-section">
+        <span class="orange-text">Contact</span> Me
+    </div>
+    <div>
+        <form class="form" id="contactForm">
+            <input type="text" id="fullName" placeholder="Full Name" class="input-form" required>
+            <input type="email" id="email" placeholder="Email" class="input-form" required>
+            <input type="tel" id="phone" placeholder="Phone Number" class="input-form" pattern="[0-9]{10}" required>
+            <input type="text" id="subject" placeholder="Subject" class="input-form" required>
+            <textarea id="message" placeholder="Message" class="input-form-message" required></textarea>
+            <button type="submit" class="send-button">Submit</button>
+        </form>
+
+    </div>
+ 
+
+  </section>
+  <footer class="footer">
+    &#169 copyright reserved
+  </footer>
+
+ </body>
+</html>

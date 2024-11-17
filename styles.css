@@ -1,0 +1,203 @@
+body{
+    margin: 0px;
+    font-family: "Lexend", sans-serif
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 6px;
+}
+.logo{
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: 000000;
+    color: #FF6500;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    color: white;
+    
+}
+
+.nav-link{
+ text-decoration: none;   
+ color: white;
+}
+
+.nav-link:hover{
+    color:#FF6500 ;
+    
+}
+
+.contact-me{
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #FF6500;
+    
+}
+
+.main-intro{
+    font-size: 50px;
+}
+.hi-class{
+    font-size: 30px;
+}
+
+
+.image-container img {
+    margin: 20px;
+    margin-right: 50px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    /* object-position: -200px; */
+    box-shadow: 0 4px 30px #FF6500 /* Orange shadow */
+}
+
+.primary-section{
+   display: flex;
+   flex-direction: column;
+ 
+}
+
+.primary-section-inner-div{
+    display: flex;
+    justify-content:flex-start;
+    padding: 30px;
+    padding-left: 100px;
+}
+
+.hire-me-button{
+font-size: 20px;
+background-color: black;
+color: white;
+padding: 10px 20px;
+border:none;
+border-radius: 3px;
+text-decoration: none;
+}
+
+.experience-button{
+font-size: 20px;
+background-color: #FF6500;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 3px;
+
+
+}
+
+.secondary-section{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content:flex-start;
+    padding: 30px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+    
+   
+}
+
+.about-me-h1{
+   font-size: 50px;
+}
+
+.orange-text{
+    color: #FF6500;
+}
+.contact{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+  
+
+}
+
+.contact-me-section{
+   color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
+   
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-form{
+    height: 50px;
+    width:600px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border:1px solid lightgrey;
+}
+
+.input-form::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.input-form-message{
+    height: 200px;
+    width:600px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border:1px solid lightgrey;
+    
+   
+}
+
+.input-form-message::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+    opacity: 0.5;
+    
+
+}
+
+.send-button{
+    width: 150px;
+    font-size: 20px;
+background-color: #FF6500;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 3px;
+
+}
+.footer{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
